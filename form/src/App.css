@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    border: 2px solid black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+}
+input{
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+select{
+    padding: 5px;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+.password{
+    flex: 1;
+}
